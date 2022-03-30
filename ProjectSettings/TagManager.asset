@@ -3,16 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CodeBlock
+  - Spirit
+  - Area
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - block
   - Water
   - UI
-  - 
-  - 
+  - switch
+  - area
   - 
   - 
   - 

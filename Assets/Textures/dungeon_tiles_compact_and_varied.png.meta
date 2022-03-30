@@ -236,6 +236,123 @@ TextureImporter:
   - first:
       213: 6670222500281032403
     second: dungeon_tiles_compact_and_varied_77
+  - first:
+      213: 4135060053472818814
+    second: dungeon_tiles_compact_and_varied_78
+  - first:
+      213: 7231271298681375945
+    second: dungeon_tiles_compact_and_varied_79
+  - first:
+      213: 3817134643634959541
+    second: dungeon_tiles_compact_and_varied_80
+  - first:
+      213: -3482097392354234915
+    second: dungeon_tiles_compact_and_varied_81
+  - first:
+      213: 3004229065177714562
+    second: dungeon_tiles_compact_and_varied_82
+  - first:
+      213: 212695169478585203
+    second: dungeon_tiles_compact_and_varied_83
+  - first:
+      213: -3295457027436648834
+    second: dungeon_tiles_compact_and_varied_84
+  - first:
+      213: -4512022406582647180
+    second: dungeon_tiles_compact_and_varied_85
+  - first:
+      213: -7875507970361814373
+    second: dungeon_tiles_compact_and_varied_86
+  - first:
+      213: -5101493148547915538
+    second: dungeon_tiles_compact_and_varied_87
+  - first:
+      213: -5043202641918813996
+    second: dungeon_tiles_compact_and_varied_88
+  - first:
+      213: -610600904550382456
+    second: dungeon_tiles_compact_and_varied_89
+  - first:
+      213: 1601528624748540673
+    second: dungeon_tiles_compact_and_varied_90
+  - first:
+      213: 4108041637742530611
+    second: dungeon_tiles_compact_and_varied_91
+  - first:
+      213: -575333587485086949
+    second: dungeon_tiles_compact_and_varied_92
+  - first:
+      213: -8171798973459197293
+    second: dungeon_tiles_compact_and_varied_93
+  - first:
+      213: 2607170880298700030
+    second: dungeon_tiles_compact_and_varied_94
+  - first:
+      213: -476584222093389314
+    second: dungeon_tiles_compact_and_varied_95
+  - first:
+      213: 2972727359154464088
+    second: dungeon_tiles_compact_and_varied_96
+  - first:
+      213: 2664200601225539217
+    second: dungeon_tiles_compact_and_varied_97
+  - first:
+      213: 4533841468770852712
+    second: dungeon_tiles_compact_and_varied_98
+  - first:
+      213: -7323594749489665473
+    second: dungeon_tiles_compact_and_varied_99
+  - first:
+      213: -6318333698744722002
+    second: dungeon_tiles_compact_and_varied_100
+  - first:
+      213: 8360860238629134244
+    second: dungeon_tiles_compact_and_varied_101
+  - first:
+      213: -8483386347861659447
+    second: dungeon_tiles_compact_and_varied_102
+  - first:
+      213: -2011377707106634993
+    second: dungeon_tiles_compact_and_varied_103
+  - first:
+      213: -2688247504775950210
+    second: dungeon_tiles_compact_and_varied_104
+  - first:
+      213: 5113711691854950073
+    second: dungeon_tiles_compact_and_varied_105
+  - first:
+      213: -6026609389081652714
+    second: dungeon_tiles_compact_and_varied_106
+  - first:
+      213: 856254212773622163
+    second: dungeon_tiles_compact_and_varied_107
+  - first:
+      213: -5790082532500950569
+    second: dungeon_tiles_compact_and_varied_108
+  - first:
+      213: -8427433720283257904
+    second: dungeon_tiles_compact_and_varied_109
+  - first:
+      213: -7442665565185484060
+    second: dungeon_tiles_compact_and_varied_110
+  - first:
+      213: -3239605766351788246
+    second: dungeon_tiles_compact_and_varied_111
+  - first:
+      213: 2839513554834108426
+    second: dungeon_tiles_compact_and_varied_112
+  - first:
+      213: -1992289473009764142
+    second: dungeon_tiles_compact_and_varied_113
+  - first:
+      213: -7023003040178378906
+    second: dungeon_tiles_compact_and_varied_114
+  - first:
+      213: 1991311031986042663
+    second: dungeon_tiles_compact_and_varied_115
+  - first:
+      213: -61377789538636185
+    second: dungeon_tiles_compact_and_varied_116
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -280,7 +397,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -341,9 +458,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 84
-        width: 20
-        height: 20
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +478,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_1
       rect:
         serializedVersion: 2
-        x: 20
-        y: 84
-        width: 20
-        height: 20
+        x: 16
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +499,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 84
-        width: 20
-        height: 20
+        x: 32
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,10 +520,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_3
       rect:
         serializedVersion: 2
-        x: 60
-        y: 84
-        width: 20
-        height: 20
+        x: 48
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +541,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_4
       rect:
         serializedVersion: 2
-        x: 80
-        y: 84
-        width: 20
-        height: 20
+        x: 64
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +562,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_5
       rect:
         serializedVersion: 2
-        x: 100
-        y: 84
-        width: 20
-        height: 20
+        x: 80
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +583,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_6
       rect:
         serializedVersion: 2
-        x: 120
-        y: 84
-        width: 20
-        height: 20
+        x: 96
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,10 +604,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_7
       rect:
         serializedVersion: 2
-        x: 140
-        y: 84
-        width: 20
-        height: 20
+        x: 112
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +625,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_8
       rect:
         serializedVersion: 2
-        x: 160
-        y: 84
-        width: 20
-        height: 20
+        x: 128
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +646,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_9
       rect:
         serializedVersion: 2
-        x: 180
-        y: 84
-        width: 20
-        height: 20
+        x: 144
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,10 +667,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_10
       rect:
         serializedVersion: 2
-        x: 200
-        y: 84
-        width: 20
-        height: 20
+        x: 160
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,10 +688,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_11
       rect:
         serializedVersion: 2
-        x: 220
-        y: 84
-        width: 20
-        height: 20
+        x: 176
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,10 +709,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_12
       rect:
         serializedVersion: 2
-        x: 240
-        y: 84
-        width: 20
-        height: 20
+        x: 192
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +730,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_13
       rect:
         serializedVersion: 2
-        x: 260
-        y: 84
-        width: 20
-        height: 20
+        x: 208
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +751,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_14
       rect:
         serializedVersion: 2
-        x: 280
-        y: 84
-        width: 20
-        height: 20
+        x: 224
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,10 +772,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_15
       rect:
         serializedVersion: 2
-        x: 300
-        y: 84
-        width: 20
-        height: 20
+        x: 240
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,10 +793,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 20
-        height: 20
+        x: 256
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,10 +814,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_17
       rect:
         serializedVersion: 2
-        x: 20
-        y: 64
-        width: 20
-        height: 20
+        x: 272
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -718,10 +835,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_18
       rect:
         serializedVersion: 2
-        x: 40
-        y: 64
-        width: 20
-        height: 20
+        x: 288
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -739,10 +856,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_19
       rect:
         serializedVersion: 2
-        x: 60
-        y: 64
-        width: 20
-        height: 20
+        x: 304
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,10 +877,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_20
       rect:
         serializedVersion: 2
-        x: 80
-        y: 64
-        width: 20
-        height: 20
+        x: 320
+        y: 88
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -781,10 +898,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_21
       rect:
         serializedVersion: 2
-        x: 100
-        y: 64
-        width: 20
-        height: 20
+        x: 0
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -802,10 +919,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_22
       rect:
         serializedVersion: 2
-        x: 120
-        y: 64
-        width: 20
-        height: 20
+        x: 16
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -823,10 +940,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_23
       rect:
         serializedVersion: 2
-        x: 140
-        y: 64
-        width: 20
-        height: 20
+        x: 32
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +961,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_24
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
-        width: 20
-        height: 20
+        x: 48
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -865,10 +982,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_25
       rect:
         serializedVersion: 2
-        x: 180
-        y: 64
-        width: 20
-        height: 20
+        x: 64
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,10 +1003,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_26
       rect:
         serializedVersion: 2
-        x: 200
-        y: 64
-        width: 20
-        height: 20
+        x: 80
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,10 +1024,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_27
       rect:
         serializedVersion: 2
-        x: 220
-        y: 64
-        width: 20
-        height: 20
+        x: 112
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,10 +1045,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_28
       rect:
         serializedVersion: 2
-        x: 240
-        y: 64
-        width: 20
-        height: 20
+        x: 128
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -949,10 +1066,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_29
       rect:
         serializedVersion: 2
-        x: 260
-        y: 64
-        width: 20
-        height: 20
+        x: 144
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -970,10 +1087,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_30
       rect:
         serializedVersion: 2
-        x: 280
-        y: 64
-        width: 20
-        height: 20
+        x: 160
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -991,10 +1108,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_31
       rect:
         serializedVersion: 2
-        x: 300
-        y: 64
-        width: 20
-        height: 20
+        x: 176
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1012,10 +1129,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_32
       rect:
         serializedVersion: 2
-        x: 0
-        y: 44
-        width: 20
-        height: 20
+        x: 192
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1033,10 +1150,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_33
       rect:
         serializedVersion: 2
-        x: 20
-        y: 44
-        width: 20
-        height: 20
+        x: 208
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1054,10 +1171,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_34
       rect:
         serializedVersion: 2
-        x: 40
-        y: 44
-        width: 20
-        height: 20
+        x: 224
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,10 +1192,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_35
       rect:
         serializedVersion: 2
-        x: 60
-        y: 44
-        width: 20
-        height: 20
+        x: 240
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1096,10 +1213,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_36
       rect:
         serializedVersion: 2
-        x: 80
-        y: 44
-        width: 20
-        height: 20
+        x: 256
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1117,10 +1234,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_37
       rect:
         serializedVersion: 2
-        x: 100
-        y: 44
-        width: 20
-        height: 20
+        x: 272
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1138,10 +1255,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_38
       rect:
         serializedVersion: 2
-        x: 120
-        y: 44
-        width: 20
-        height: 20
+        x: 288
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1159,10 +1276,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_39
       rect:
         serializedVersion: 2
-        x: 140
-        y: 44
-        width: 20
-        height: 20
+        x: 304
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1180,10 +1297,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_40
       rect:
         serializedVersion: 2
-        x: 160
-        y: 44
-        width: 20
-        height: 20
+        x: 320
+        y: 72
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1201,10 +1318,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_41
       rect:
         serializedVersion: 2
-        x: 180
-        y: 44
-        width: 20
-        height: 20
+        x: 0
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1222,10 +1339,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_42
       rect:
         serializedVersion: 2
-        x: 200
-        y: 44
-        width: 20
-        height: 20
+        x: 16
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1243,10 +1360,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_43
       rect:
         serializedVersion: 2
-        x: 220
-        y: 44
-        width: 20
-        height: 20
+        x: 32
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1264,10 +1381,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_44
       rect:
         serializedVersion: 2
-        x: 240
-        y: 44
-        width: 20
-        height: 20
+        x: 48
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1285,10 +1402,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_45
       rect:
         serializedVersion: 2
-        x: 260
-        y: 44
-        width: 20
-        height: 20
+        x: 64
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1306,10 +1423,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_46
       rect:
         serializedVersion: 2
-        x: 280
-        y: 44
-        width: 20
-        height: 20
+        x: 80
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1327,10 +1444,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_47
       rect:
         serializedVersion: 2
-        x: 300
-        y: 44
-        width: 20
-        height: 20
+        x: 96
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1348,10 +1465,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 24
-        width: 20
-        height: 20
+        x: 112
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1369,10 +1486,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_49
       rect:
         serializedVersion: 2
-        x: 20
-        y: 24
-        width: 20
-        height: 20
+        x: 128
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1390,10 +1507,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_50
       rect:
         serializedVersion: 2
-        x: 40
-        y: 24
-        width: 20
-        height: 20
+        x: 144
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1411,10 +1528,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_51
       rect:
         serializedVersion: 2
-        x: 60
-        y: 24
-        width: 20
-        height: 20
+        x: 160
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1432,10 +1549,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_52
       rect:
         serializedVersion: 2
-        x: 80
-        y: 24
-        width: 20
-        height: 20
+        x: 176
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1453,10 +1570,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_53
       rect:
         serializedVersion: 2
-        x: 100
-        y: 24
-        width: 20
-        height: 20
+        x: 192
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1474,10 +1591,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_54
       rect:
         serializedVersion: 2
-        x: 120
-        y: 24
-        width: 20
-        height: 20
+        x: 208
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1495,10 +1612,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_55
       rect:
         serializedVersion: 2
-        x: 140
-        y: 24
-        width: 20
-        height: 20
+        x: 224
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1516,10 +1633,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_56
       rect:
         serializedVersion: 2
-        x: 160
-        y: 24
-        width: 20
-        height: 20
+        x: 240
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1537,10 +1654,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_57
       rect:
         serializedVersion: 2
-        x: 180
-        y: 24
-        width: 20
-        height: 20
+        x: 256
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1558,10 +1675,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_58
       rect:
         serializedVersion: 2
-        x: 200
-        y: 24
-        width: 20
-        height: 20
+        x: 272
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1579,10 +1696,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_59
       rect:
         serializedVersion: 2
-        x: 220
-        y: 24
-        width: 20
-        height: 20
+        x: 288
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1600,10 +1717,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_60
       rect:
         serializedVersion: 2
-        x: 240
-        y: 24
-        width: 20
-        height: 20
+        x: 304
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1621,10 +1738,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_61
       rect:
         serializedVersion: 2
-        x: 260
-        y: 24
-        width: 20
-        height: 20
+        x: 320
+        y: 56
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1642,10 +1759,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_62
       rect:
         serializedVersion: 2
-        x: 280
-        y: 24
-        width: 20
-        height: 20
+        x: 0
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1663,10 +1780,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_63
       rect:
         serializedVersion: 2
-        x: 300
-        y: 24
-        width: 20
-        height: 20
+        x: 16
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1684,10 +1801,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_64
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4
-        width: 20
-        height: 20
+        x: 32
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1705,10 +1822,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_65
       rect:
         serializedVersion: 2
-        x: 20
-        y: 4
-        width: 20
-        height: 20
+        x: 48
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1726,10 +1843,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_66
       rect:
         serializedVersion: 2
-        x: 40
-        y: 4
-        width: 20
-        height: 20
+        x: 64
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1747,10 +1864,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_67
       rect:
         serializedVersion: 2
-        x: 60
-        y: 4
-        width: 20
-        height: 20
+        x: 80
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1768,10 +1885,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_68
       rect:
         serializedVersion: 2
-        x: 80
-        y: 4
-        width: 20
-        height: 20
+        x: 96
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1789,10 +1906,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_69
       rect:
         serializedVersion: 2
-        x: 100
-        y: 4
-        width: 20
-        height: 20
+        x: 112
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1810,10 +1927,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_70
       rect:
         serializedVersion: 2
-        x: 120
-        y: 4
-        width: 20
-        height: 20
+        x: 128
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1831,10 +1948,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_71
       rect:
         serializedVersion: 2
-        x: 140
-        y: 4
-        width: 20
-        height: 20
+        x: 144
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1853,9 +1970,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 4
-        width: 20
-        height: 20
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1873,10 +1990,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_73
       rect:
         serializedVersion: 2
-        x: 180
-        y: 4
-        width: 20
-        height: 20
+        x: 176
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1894,10 +2011,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_74
       rect:
         serializedVersion: 2
-        x: 200
-        y: 4
-        width: 20
-        height: 20
+        x: 192
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1915,10 +2032,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_75
       rect:
         serializedVersion: 2
-        x: 220
-        y: 4
-        width: 20
-        height: 20
+        x: 208
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1936,10 +2053,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_76
       rect:
         serializedVersion: 2
-        x: 240
-        y: 4
-        width: 20
-        height: 20
+        x: 224
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1957,10 +2074,10 @@ TextureImporter:
       name: dungeon_tiles_compact_and_varied_77
       rect:
         serializedVersion: 2
-        x: 260
-        y: 4
-        width: 20
-        height: 20
+        x: 240
+        y: 40
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1970,6 +2087,825 @@ TextureImporter:
       bones: []
       spriteID: 3de911e0604619c50800000000000000
       internalID: 6670222500281032403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76b72cc53fa26930800000000000000
+      internalID: 4135060053472818814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_79
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc8168eee2aa5460800000000000000
+      internalID: 7231271298681375945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_80
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4f2bdfbbf29f430800000000000000
+      internalID: 3817134643634959541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd696fdeda1dafc0800000000000000
+      internalID: -3482097392354234915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f42ddea6a21b920800000000000000
+      internalID: 3004229065177714562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b66363125a3f200800000000000000
+      internalID: 212695169478585203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76e21b2b4f2442d0800000000000000
+      internalID: -3295457027436648834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476c905e6831261c0800000000000000
+      internalID: -4512022406582647180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_86
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9293d82a3394b290800000000000000
+      internalID: -7875507970361814373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee066b0a20bd339b0800000000000000
+      internalID: -5101493148547915538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_88
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d81e1ecae1f20ab0800000000000000
+      internalID: -5043202641918813996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8840eb066b5b687f0800000000000000
+      internalID: -610600904550382456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_90
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103b1c78cc5c93610800000000000000
+      internalID: 1601528624748540673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330582caa12b20930800000000000000
+      internalID: 4108041637742530611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_92
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ba99286210408f0800000000000000
+      internalID: -575333587485086949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39210133120f79e80800000000000000
+      internalID: -8171798973459197293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_94
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc42fc2a188e2420800000000000000
+      internalID: 2607170880298700030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef15190dc25d269f0800000000000000
+      internalID: -476584222093389314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_96
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855ac7078cf314920800000000000000
+      internalID: 2972727359154464088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_97
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e2e6ec45429f420800000000000000
+      internalID: 2664200601225539217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f95066bc07bee30800000000000000
+      internalID: 4533841468770852712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aa0cd906d5d5a90800000000000000
+      internalID: -7323594749489665473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_100
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadd0f91af4c058a0800000000000000
+      internalID: -6318333698744722002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af5d2cd61eb70470800000000000000
+      internalID: 8360860238629134244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_102
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0be434015f44a80800000000000000
+      internalID: -8483386347861659447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_103
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03f4c2d1a62614e0800000000000000
+      internalID: -2011377707106634993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_104
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70df79232d61bad0800000000000000
+      internalID: -2688247504775950210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_105
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bea6cca0bd87f640800000000000000
+      internalID: 5113711691854950073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_106
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 8
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61211c3e0be2d5ca0800000000000000
+      internalID: -6026609389081652714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_107
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 3
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391bdcd7ba602eb00800000000000000
+      internalID: 856254212773622163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_108
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 5
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d136162d9e75afa0800000000000000
+      internalID: -5790082532500950569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_109
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d32e5e8eadbb0b80800000000000000
+      internalID: -8427433720283257904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_110
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea5615f91756b890800000000000000
+      internalID: -7442665565185484060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_111
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 8
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a276b4c38bb9a03d0800000000000000
+      internalID: -3239605766351788246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_112
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 8
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a003bc2a88af76720800000000000000
+      internalID: 2839513554834108426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_113
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 3
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8b087a747f954e0800000000000000
+      internalID: -1992289473009764142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_114
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 8
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667eda5c1f7498e90800000000000000
+      internalID: -7023003040178378906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_115
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72738da45de82ab10800000000000000
+      internalID: 1991311031986042663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tiles_compact_and_varied_116
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 8
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e6371c931f52ff0800000000000000
+      internalID: -61377789538636185
       vertices: []
       indices: 
       edges: []

@@ -4,18 +4,11 @@ using UnityEngine;
 
 public class pickupBlock : MonoBehaviour
 {   
-    public float raycastDistance = 10.0f;
+    [SerializeField] float raycastDistance = 10.0f;
     [SerializeField] private LayerMask blockLayer;//layer where code blocks are
     bool isHolding = false;
     Vector2 direction;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Z)){

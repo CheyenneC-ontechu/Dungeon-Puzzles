@@ -258,7 +258,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   raycastDistance: 2
-  layerMask: 8
+  blockLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!114 &6134541283300095003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,3 +273,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9f5305cfb2a0784880444781cc192ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  raycastDistance: 10

@@ -6,25 +6,34 @@ public class executeSwitch : MonoBehaviour
 {
     string[] blocks;
     [SerializeField] private string[] solution;
-    [SerializeField] private GameObject[] areas;
+    [SerializeField] private GameObject[] areas; //where code blocks are to be placed
+    [SerializeField] private GameObject codeSpirit;
+
+    //check if block placement is correct then playsolution if it is
     public void Execute(){
         string[] attempt = GetBlocks();
+        if (attempt == null){
+            Debug.Log("spaces not filled");
+            return;
+        }
         for (int i = 0; i< attempt.Length; i++){
             if (attempt[i] != solution[i]){
                 Debug.Log("Wrong");
                 return;
             }
         }
-        PlaySolution();
-    }
-
-    public void PlaySolution(){
         Debug.Log("Correct");
+        codeSpirit.GetComponent<spiritMovement>().PlaySolution(solution);
     }
 
+    //get names of blocks that were placed in the areas
     private string[] GetBlocks(){
         string[] blockNames = new string[areas.Length];
         for (int i = 0; i < blockNames.Length; i++){
+            //if the area has no child not all spaces were filled
+            if (areas[i].transform.childCount == 0){
+                return null;
+            }
             blockNames[i] = areas[i].transform.GetChild(0).gameObject.name;
         }
         return blockNames;

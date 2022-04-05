@@ -7,16 +7,10 @@ public class CodeBlock : MonoBehaviour
     public Vector2 originalPosition;
 
     [SerializeField] private LayerMask dropArea;
-    // Start is called before the first frame update
+
     void Start()
     {
         originalPosition = transform.position;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void SnapToSpace() {

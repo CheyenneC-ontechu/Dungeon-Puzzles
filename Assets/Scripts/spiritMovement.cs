@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 
 public class spiritMovement : MonoBehaviour
 {
-    public Vector2 originalPosition;
-    public Animator animator;
+    private Vector2 originalPosition;
+    [SerializeField] private Animator animator;
+    [SerializeField] private GameObject fireball;
+    [SerializeField] Vector2 direction = Vector2.right;
 
     bool isFacingRight;
 
@@ -16,17 +18,10 @@ public class spiritMovement : MonoBehaviour
         isFacingRight = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public async void PlaySolution(string[] instructions) {
         for (int i = 0; i < instructions.Length; i++){
             await Task.Delay(1000);
             PlayAnimation(instructions[i]);
-            
         }
     }
 
@@ -43,6 +38,9 @@ public class spiritMovement : MonoBehaviour
                 break;
             case "Left":
                 moveLeft();
+                break;
+            case "Fire":
+                Fire();
                 break;
             default:
                 Debug.Log("No Animation To Play");
@@ -78,6 +76,14 @@ public class spiritMovement : MonoBehaviour
         }
         animator.SetBool("Side", true);
         this.transform.position = new Vector2(this.transform.position.x+1, this.transform.position.y);
+    }
+
+    public void Fire(){
+        Instantiate(fireball, transform);
+    }
+
+    public void Ice(){
+
     }
 
 

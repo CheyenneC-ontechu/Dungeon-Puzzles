@@ -15,9 +15,9 @@ public class resetManager : MonoBehaviour
 
     public void resetPuzzle()
     {
-        foreach (GameObject spirit in spirits){
-            spirit.transform.position = spirit.GetComponent<spiritMovement>().originalPosition;
-        }
+        // foreach (GameObject spirit in spirits){
+        //     spirit.transform.position = spirit.GetComponent<spiritMovement>().originalPosition;
+        // }
 
     }
 

@@ -2,25 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Animator))]
 public class EnemyElement : MonoBehaviour
 {
-    private SpriteRenderer spriterenderer;
-
-    [SerializeField] private Color FireColor;
-    [SerializeField] private Color IceColor; 
-
+    private Animator animator;
+    //[SerializeField] LayerMask playerLayer;
     private void Awake(){
-        spriterenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
-    private void Start(){
-        int rand = Random.Range(0,2);
-        Debug.Log(rand);
-        if (rand < 1){
-            spriterenderer.color = FireColor;
-        } else {
-            spriterenderer.color = IceColor;
-        }
+    public void FreezeColour(){
+        animator.SetTrigger("ColourStay");
+    }
+
+    private void OnCollisionEnter2D(Collision2D other){
+        // if (other.collider.gameObject.layer != playerLayer){
+        //     Destroy(gameObject);
+        // }
+        Destroy(gameObject);
+    }
+    private void OnDestroy() {
+        Debug.Log("play destroy animation here");
     }
 }

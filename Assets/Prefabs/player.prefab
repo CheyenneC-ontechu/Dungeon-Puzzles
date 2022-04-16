@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 8092617664537296052}
   - component: {fileID: 8092617664537296059}
   - component: {fileID: 8092617664537296049}
-  - component: {fileID: 6134541283300095003}
+  - component: {fileID: 1114731212}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -261,7 +261,7 @@ MonoBehaviour:
   blockLayer:
     serializedVersion: 2
     m_Bits: 8
---- !u!114 &6134541283300095003
+--- !u!114 &1114731212
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,7 +270,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8092617664537296058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9f5305cfb2a0784880444781cc192ef, type: 3}
+  m_Script: {fileID: 11500000, guid: b3e08f6e41865f84781a188b5cbda451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   raycastDistance: 10
+  switchLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  dialogueLayer:
+    serializedVersion: 2
+    m_Bits: 32

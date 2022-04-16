@@ -6,6 +6,7 @@ public class executeSwitch : MonoBehaviour
 {
     string[] blocks;
     [SerializeField] private string[] solution;
+    [SerializeField] private string[] solutionToPlay;
     [SerializeField] private GameObject[] areas; //where code blocks are to be placed
     [SerializeField] private GameObject codeSpirit;
 
@@ -23,7 +24,7 @@ public class executeSwitch : MonoBehaviour
             }
         }
         Debug.Log("Correct");
-        codeSpirit.GetComponent<spiritMovement>().PlaySolution(solution);
+        codeSpirit.GetComponent<spiritMovement>().PlaySolution(solutionToPlay);
     }
 
     //get names of blocks that were placed in the areas
@@ -34,7 +35,7 @@ public class executeSwitch : MonoBehaviour
             if (areas[i].transform.childCount == 0){
                 return null;
             }
-            blockNames[i] = areas[i].transform.GetChild(0).gameObject.name;
+            blockNames[i] = areas[i].transform.GetChild(1).gameObject.name;
         }
         return blockNames;
 

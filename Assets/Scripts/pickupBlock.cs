@@ -6,8 +6,9 @@ public class pickupBlock : MonoBehaviour
 {   
     [SerializeField] float raycastDistance = 10.0f;
     [SerializeField] private LayerMask blockLayer;//layer where code blocks are
-    bool isHolding = false;
-    Vector2 direction;
+    
+    private bool isHolding = false;
+    private Vector2 direction;
 
     void Update()
     {

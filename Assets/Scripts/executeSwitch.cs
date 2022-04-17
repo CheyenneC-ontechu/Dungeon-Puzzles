@@ -14,12 +14,12 @@ public class executeSwitch : MonoBehaviour
     public void Execute(){
         string[] attempt = GetBlocks();
         if (attempt == null){
-            Debug.Log("spaces not filled");
+            GetComponent<dialogueTrigger>().TriggerDialogue();
             return;
         }
         for (int i = 0; i< attempt.Length; i++){
             if (attempt[i] != solution[i]){
-                Debug.Log("Wrong");
+                GetComponent<dialogueTrigger>().TriggerDialogue();
                 return;
             }
         }

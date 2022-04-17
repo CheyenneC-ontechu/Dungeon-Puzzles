@@ -6,6 +6,7 @@ using UnityEngine;
 public class EnemyElement : MonoBehaviour
 {
     private Animator animator;
+    [SerializeField] private GameObject destroyVFX;
     //[SerializeField] LayerMask playerLayer;
     private void Awake(){
         animator = GetComponent<Animator>();
@@ -22,6 +23,6 @@ public class EnemyElement : MonoBehaviour
         Destroy(gameObject);
     }
     private void OnDestroy() {
-        Debug.Log("play destroy animation here");
+        Instantiate(destroyVFX, transform.position, Quaternion.identity);
     }
 }

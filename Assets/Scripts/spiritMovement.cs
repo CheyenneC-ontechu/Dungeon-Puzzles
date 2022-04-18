@@ -5,16 +5,15 @@ using System.Threading.Tasks;
 
 public class spiritMovement : MonoBehaviour
 {
-    private Vector2 originalPosition;
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject fireball;
+    [SerializeField] private GameObject chest;
     [SerializeField] Vector2 direction = Vector2.right;
 
-    bool isFacingRight;
+    private bool isFacingRight;
 
-    void Start()
+    private void Start()
     {
-        originalPosition = transform.position;
         isFacingRight = false;
     }
 
@@ -41,6 +40,9 @@ public class spiritMovement : MonoBehaviour
                 break;
             case "Fire":
                 Fire();
+                break;
+            case "Unlock":
+                Unlock();
                 break;
             default:
                 Debug.Log("No Animation To Play");
@@ -84,6 +86,10 @@ public class spiritMovement : MonoBehaviour
 
     public void Ice(){
 
+    }
+
+    public void Unlock(){
+        chest.GetComponent<Animator>().SetTrigger("Open");
     }
 
 

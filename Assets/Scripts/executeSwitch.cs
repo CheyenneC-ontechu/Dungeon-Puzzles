@@ -32,7 +32,7 @@ public class executeSwitch : MonoBehaviour
         string[] blockNames = new string[areas.Length];
         for (int i = 0; i < blockNames.Length; i++){
             //if the area has no child not all spaces were filled
-            if (areas[i].transform.childCount == 0){
+            if (areas[i].transform.childCount < 2){
                 return null;
             }
             blockNames[i] = areas[i].transform.GetChild(1).gameObject.name;

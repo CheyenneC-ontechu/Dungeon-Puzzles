@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &51345357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1402400412375996866, guid: 67d50c7e014535143866d374080ead5d, type: 3}
+  m_PrefabInstance: {fileID: 1402400412042583610}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &69651877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2047,7 +2052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6649208948265942897, guid: 5ab35965d23b8444a802db420066aec1, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6649208948265942897, guid: 5ab35965d23b8444a802db420066aec1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7775,6 +7780,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
+      propertyPath: codeSpirit
+      value: 
+      objectReference: {fileID: 51345357}
+    - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
       propertyPath: areas.Array.data[0]
       value: 
       objectReference: {fileID: 865348081}
@@ -8202,7 +8211,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1372448124
 Animator:
@@ -8240,7 +8249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6649208948265942897, guid: 5ab35965d23b8444a802db420066aec1, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6649208948265942897, guid: 5ab35965d23b8444a802db420066aec1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8841,7 +8850,7 @@ Transform:
   m_Children:
   - {fileID: 1840446686}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1402400412042583610
 PrefabInstance:
@@ -8982,7 +8991,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8092617664537296048, guid: de7d52b6061abaa4cb588b60b710b9f0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8092617664537296048, guid: de7d52b6061abaa4cb588b60b710b9f0, type: 3}
       propertyPath: m_LocalPosition.x

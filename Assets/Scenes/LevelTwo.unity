@@ -1749,10 +1749,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 922577813}
     - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
-      propertyPath: areas.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
       propertyPath: areas.Array.data[0]
       value: 
       objectReference: {fileID: 535004719}
@@ -1760,30 +1756,6 @@ PrefabInstance:
       propertyPath: areas.Array.data[1]
       value: 
       objectReference: {fileID: 665804841}
-    - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
-      propertyPath: solution.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
-      propertyPath: solution.Array.data[0]
-      value: Fire
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
-      propertyPath: solution.Array.data[1]
-      value: Ice
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
-      propertyPath: solutionToPlay.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
-      propertyPath: solutionToPlay.Array.data[0]
-      value: Fire
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850957056839472357, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
-      propertyPath: solutionToPlay.Array.data[1]
-      value: Fire
-      objectReference: {fileID: 0}
     - target: {fileID: 8850957056839472358, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
       propertyPath: m_Name
       value: executeSwitch
@@ -2334,27 +2306,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3da464eae30ffae46b00405ef42f49f6, type: 3}
---- !u!1 &1519176601 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8850957056839472358, guid: bd4a252b5c9d99b4aa2dcc9aa7f1510c, type: 3}
-  m_PrefabInstance: {fileID: 1135323375}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1519176602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1519176601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c812831b50d31346b9125ec988ac9c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - Hmm thats not right
-    name: 
 --- !u!1 &1540135113
 GameObject:
   m_ObjectHideFlags: 0

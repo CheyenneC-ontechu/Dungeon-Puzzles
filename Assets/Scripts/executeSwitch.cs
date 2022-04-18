@@ -12,6 +12,7 @@ public class executeSwitch : MonoBehaviour
 
     //check if block placement is correct then playsolution if it is
     public void Execute(){
+        Debug.Log("Executing");
         string[] attempt = GetBlocks();
         if (attempt == null){
             GetComponent<dialogueTrigger>().TriggerDialogue();

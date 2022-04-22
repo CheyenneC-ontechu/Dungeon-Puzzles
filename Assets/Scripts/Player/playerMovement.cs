@@ -16,13 +16,8 @@ public class playerMovement : MonoBehaviour
 
     private Vector2 movement;
 
-    public float GetLastHorizontal(){
-        return lastHorizontal;
-    }
-
-    public float GetLastVertical(){
-        return lastVertical;
-    }
+    public float GetLastHorizontal(){return lastHorizontal;}
+    public float GetLastVertical(){return lastVertical;}
 
     private void Update(){
         movement.x = Input.GetAxisRaw("Horizontal");

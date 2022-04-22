@@ -8,7 +8,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float raycastDistance = 10.0f;
     [SerializeField] private LayerMask switchLayer;
     [SerializeField] private LayerMask dialogueLayer;
-    [SerializeField] private LayerMask blockLayer;//layer where code blocks are
+    [SerializeField] private LayerMask blockLayer;
 
     private Vector2 direction; //direction player is facing
 
@@ -19,6 +19,7 @@ public class PlayerInteraction : MonoBehaviour
             var movement = GetComponent<playerMovement>();
             direction = new Vector2(movement.GetLastHorizontal(), movement.GetLastVertical()); 
 
+            //if holding a block put it down
             if (isHolding){
                 foreach (Transform child in transform){
                     if (child.CompareTag("CodeBlock")){

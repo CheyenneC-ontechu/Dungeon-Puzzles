@@ -2,43 +2,47 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+allows the user to control player movement
+*/
 public class playerMovement : MonoBehaviour
 {
-    public float movementSpeed = 5f;
-    public Rigidbody2D rb;
-    public Animator animator;
-    [HideInInspector] public float lastHorizontal;
-    [HideInInspector] public float lastVertical;
+    [SerializeField] private float movementSpeed = 5f;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator animator;
 
-    Vector2 movement;
+    private float lastHorizontal;
+    private float lastVertical;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    private Vector2 movement;
+
+    public float GetLastHorizontal(){
+        return lastHorizontal;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    movement.x = Input.GetAxisRaw("Horizontal");
-    movement.y = Input.GetAxisRaw("Vertical");  
-
-    animator.SetFloat("Horizontal", movement.x);
-    animator.SetFloat("Vertical", movement.y);
-    animator.SetFloat("Speed", movement.sqrMagnitude);
-
-    if (movement.x != 0 || movement.y != 0 ){
-        animator.SetFloat("LastHorizontal", movement.x);
-        animator.SetFloat("LastVertical", movement.y);
-
-        lastHorizontal = movement.x;
-        lastVertical = movement.y;
+    public float GetLastVertical(){
+        return lastVertical;
     }
+
+    private void Update(){
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");  
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if (movement.x != 0 || movement.y != 0 ){
+            animator.SetFloat("LastHorizontal", movement.x);
+            animator.SetFloat("LastVertical", movement.y);
+
+            lastHorizontal = movement.x;
+            lastVertical = movement.y;
+        }
     
-    }
+}
 
-    void FixedUpdate() 
+    private void FixedUpdate() 
     {
         rb.MovePosition(rb.position + movement * movementSpeed * Time.fixedDeltaTime);
     }

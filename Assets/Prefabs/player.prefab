@@ -97,7 +97,6 @@ GameObject:
   - component: {fileID: 8092617664537296053}
   - component: {fileID: 8092617664537296052}
   - component: {fileID: 8092617664537296059}
-  - component: {fileID: 8092617664537296049}
   - component: {fileID: 1114731212}
   m_Layer: 0
   m_Name: player
@@ -208,8 +207,6 @@ MonoBehaviour:
   movementSpeed: 5
   rb: {fileID: 8092617664537296054}
   animator: {fileID: 8092617664537296052}
-  lastHorizontal: 0
-  lastVertical: 0
 --- !u!95 &8092617664537296052
 Animator:
   serializedVersion: 3
@@ -245,22 +242,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.009536266, y: -0.114438176}
   m_Size: {x: 0.5613222, y: 0.8283427}
   m_Direction: 0
---- !u!114 &8092617664537296049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8092617664537296058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 902ee244c4b028f4e98cc81e0d95f6fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  raycastDistance: 2
-  blockLayer:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!114 &1114731212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,3 +261,6 @@ MonoBehaviour:
   dialogueLayer:
     serializedVersion: 2
     m_Bits: 32
+  blockLayer:
+    serializedVersion: 2
+    m_Bits: 8

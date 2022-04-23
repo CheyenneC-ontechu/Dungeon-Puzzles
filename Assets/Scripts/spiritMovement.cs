@@ -84,10 +84,6 @@ public class spiritMovement : MonoBehaviour
         Instantiate(fireball, transform);
     }
 
-    public void Ice(){
-
-    }
-
     public void Unlock(){
         chest.GetComponent<Animator>().SetTrigger("Open");
         chest.GetComponent<AudioSource>().Play();

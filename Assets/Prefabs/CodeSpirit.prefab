@@ -93,7 +93,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -117,8 +117,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9202aa2aa60ecf24e918eb74fd456d7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalPosition: {x: 0, y: 0}
   animator: {fileID: 1402400412375996867}
+  fireball: {fileID: 8353346440792363870, guid: 968d1c4f0220c0845acba3e41e643413, type: 3}
+  chest: {fileID: 0}
+  direction: {x: 1, y: 0}
 --- !u!70 &1543692439
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

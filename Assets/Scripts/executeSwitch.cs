@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class executeSwitch : MonoBehaviour
-{
-    string[] blocks;
+{    
     [SerializeField] private string[] solution;
     [SerializeField] private string[] solutionToPlay;
     [SerializeField] private GameObject[] areas; //where code blocks are to be placed
@@ -12,7 +11,6 @@ public class executeSwitch : MonoBehaviour
 
     //check if block placement is correct then playsolution if it is
     public void Execute(){
-        Debug.Log("Executing");
         string[] attempt = GetBlocks();
         if (attempt == null){
             GetComponent<dialogueTrigger>().TriggerDialogue();
@@ -24,7 +22,6 @@ public class executeSwitch : MonoBehaviour
                 return;
             }
         }
-        Debug.Log("Correct");
         codeSpirit.GetComponent<spiritMovement>().PlaySolution(solutionToPlay);
     }
 
@@ -36,6 +33,7 @@ public class executeSwitch : MonoBehaviour
             if (areas[i].transform.childCount < 2){
                 return null;
             }
+            //get the name of the block in the area
             blockNames[i] = areas[i].transform.GetChild(1).gameObject.name;
         }
         return blockNames;

@@ -7,11 +7,20 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] private string nextLevel;
 
+    public void LoadMainMenu(string menu = "MainMenu"){
+        SceneManager.LoadScene(menu);
+    }
+
     public void LoadLevel(string level){
         SceneManager.LoadScene(level);
     }
 
     public void Quit(){
         Application.Quit();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        LoadLevel(nextLevel);
     }
 }

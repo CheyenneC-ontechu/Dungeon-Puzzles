@@ -1241,7 +1241,7 @@ GameObject:
   - component: {fileID: 1540135114}
   - component: {fileID: 1540135117}
   m_Layer: 0
-  m_Name: fireswitch
+  m_Name: nextLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1337,10 +1337,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1540135113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb8a35b0bd0c55942a09ab513bc87210, type: 3}
+  m_Script: {fileID: 11500000, guid: 0837d247a8b17f24282a2a0e03115eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RemoveCollider: {fileID: 1361870171}
+  nextLevel: Level3
 --- !u!1001 &1555749201
 PrefabInstance:
   m_ObjectHideFlags: 0

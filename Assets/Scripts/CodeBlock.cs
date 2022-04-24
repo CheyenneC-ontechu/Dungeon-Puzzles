@@ -37,6 +37,10 @@ public class CodeBlock : MonoBehaviour
         //set block to area position then area becomes new parent
         transform.position = area.position;
         transform.parent = area.gameObject.transform;
+        
+        //play sound effect
+        AudioSource audio = transform.parent.GetComponent<AudioSource>();
+        if (audio){audio.Play();}
     }
 
     public void SnapToGrid() 

@@ -86,7 +86,8 @@ public class spiritMovement : MonoBehaviour
 
     public void Unlock(){
         chest.GetComponent<Animator>().SetTrigger("Open");
-        chest.GetComponent<AudioSource>().Play();
+        AudioSource audio = chest.GetComponent<AudioSource>();
+        if (audio){audio.Play();}
     }
 
 

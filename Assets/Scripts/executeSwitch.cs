@@ -9,7 +9,10 @@ public class executeSwitch : MonoBehaviour
     [SerializeField] private GameObject[] areas; //where code blocks are to be placed
     [SerializeField] private GameObject codeSpirit;
 
-    //check if block placement is correct then playsolution if it is
+    /*
+    this functions checks if block placement is correct then plays the solution if it is
+    if not it will trigger dialogue telling the player their answer was incorrect
+    */
     public void Execute(){
         AudioSource audio = GetComponent<AudioSource>();
         if (audio){audio.Play();}
@@ -28,7 +31,9 @@ public class executeSwitch : MonoBehaviour
         codeSpirit.GetComponent<spiritMovement>().PlaySolution(solutionToPlay);
     }
 
-    //get names of blocks that were placed in the areas
+    /*
+    this function gets names of blocks that were placed in the areas
+    */
     private string[] GetBlocks(){
         string[] blockNames = new string[areas.Length];
         for (int i = 0; i < blockNames.Length; i++){

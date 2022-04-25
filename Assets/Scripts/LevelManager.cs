@@ -7,8 +7,12 @@ public class LevelManager : MonoBehaviour
 {
     [SerializeField] private string nextLevel;
 
-    public void LoadMainMenu(string menu = "MainMenu"){
-        SceneManager.LoadScene(menu);
+    public void LoadMainMenu(){
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void ReloadLevel(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void LoadLevel(string level){

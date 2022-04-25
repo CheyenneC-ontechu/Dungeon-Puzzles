@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CodeBlock : MonoBehaviour
 {
-    public Vector2 originalPosition;
+    private Vector2 originalPosition;
 
     [SerializeField] private LayerMask dropArea;
     [SerializeField] private float dropRadius = 2.0f;
@@ -14,6 +14,10 @@ public class CodeBlock : MonoBehaviour
         originalPosition = transform.position;
     }
 
+    /*
+    this function snaps the codeblock to the closest BlockArea within the drop radius
+    the block will become a child of the BlockArea
+    */
     public void SnapToSpace() {
         //block areas within specified radius
         Collider2D[] areas = Physics2D.OverlapCircleAll(

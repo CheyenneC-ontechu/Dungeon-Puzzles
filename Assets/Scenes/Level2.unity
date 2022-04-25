@@ -221,8 +221,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - If the monster is an ice type, what will you do?
-    - What if the monster is a fire type?
+    - What can defeat ice? What can defeat fire?
+    - Remember you don't need to use every block.
     name: Guide
 --- !u!70 &111909837
 CapsuleCollider2D:
@@ -592,7 +592,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &535004718
 PrefabInstance:
@@ -1076,36 +1076,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3da464eae30ffae46b00405ef42f49f6, type: 3}
---- !u!1 &1190524166
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1190524167}
-  m_Layer: 0
-  m_Name: LevelManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1190524167
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190524166}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5749886, y: 0.4379071, z: -4.3344665}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1361870171
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,8 +1108,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.008157935, y: 0.068916805}
-  m_Size: {x: 0.49418926, y: 0.89173806}
+  m_Offset: {x: 0.008157935, y: 0.08729095}
+  m_Size: {x: 0.49418926, y: 0.8549896}
   m_Direction: 0
 --- !u!4 &1361870173
 Transform:
@@ -1149,8 +1119,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361870171}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.3246, y: 3.3254, z: -5.542832}
-  m_LocalScale: {x: 6.600109, y: 5.4691577, z: 1}
+  m_LocalPosition: {x: 14.0053, y: 3.5515, z: -5.542832}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -1279,6 +1249,34 @@ PrefabInstance:
     - target: {fileID: 4638542026546144540, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: The enemies can change from fire to ice.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Defeat all the enemies by casting the correct spells.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: On the oval shaped block is your condition.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: It shows the monster in ice form.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: You must show the spirit which spell to cast if the enemy is ice.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: And what to cast if it is not.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
@@ -1467,7 +1465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0837d247a8b17f24282a2a0e03115eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: Level3
+  nextLevel: Level2a
 --- !u!1001 &1555749201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11773,6 +11771,14 @@ PrefabInstance:
     - target: {fileID: 2169541945000945631, guid: 1244c0d8a92cd534f8966df3dd56ea41, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DisplayNextSentence
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913058755834100402, guid: 1244c0d8a92cd534f8966df3dd56ea41, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1540135117}
+    - target: {fileID: 5913058755834100402, guid: 1244c0d8a92cd534f8966df3dd56ea41, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadMainMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1244c0d8a92cd534f8966df3dd56ea41, type: 3}

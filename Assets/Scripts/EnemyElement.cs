@@ -12,11 +12,18 @@ public class EnemyElement : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    /*
+    this function destroys the enemy if it collides with something that is not the player
+    */
     private void OnCollisionEnter2D(Collision2D other){
         if (!other.collider.gameObject.CompareTag("Player")){
             Destroy(gameObject);
         }
     }
+
+    /*
+    this function creates the explosion animation
+    */
     private void OnDestroy() {
         Instantiate(destroyVFX, transform.position, Quaternion.identity);
     }

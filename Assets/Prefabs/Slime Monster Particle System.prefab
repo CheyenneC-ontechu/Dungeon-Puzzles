@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2533767178420729144}
   - component: {fileID: 2533767178420729147}
   - component: {fileID: 2533767178420729146}
-  - component: {fileID: 6272009843807232958}
+  - component: {fileID: 1098857323781722830}
   m_Layer: 0
   m_Name: Slime Monster Particle System
   m_TagString: Untagged
@@ -4863,7 +4863,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!82 &6272009843807232958
+--- !u!82 &1098857323781722830
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

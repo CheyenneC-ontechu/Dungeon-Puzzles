@@ -9,11 +9,16 @@ public class executeSwitch : MonoBehaviour
     [SerializeField] private GameObject[] areas; //where code blocks are to be placed
     [SerializeField] private GameObject codeSpirit;
 
+    private bool canInteract = true;
+
     /*
     this functions checks if block placement is correct then plays the solution if it is
     if not it will trigger dialogue telling the player their answer was incorrect
+    the switch cannot be interacted with after a correct guess
     */
     public void Execute(){
+        if (!canInteract){return;}
+
         AudioSource audio = GetComponent<AudioSource>();
         if (audio){audio.Play();}
 
@@ -29,6 +34,7 @@ public class executeSwitch : MonoBehaviour
             }
         }
         codeSpirit.GetComponent<spiritMovement>().PlaySolution(solutionToPlay);
+        canInteract = false;
     }
 
     /*

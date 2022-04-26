@@ -17,14 +17,9 @@ public class EnemyElement : MonoBehaviour
     */
     private void OnCollisionEnter2D(Collision2D other){
         if (!other.collider.gameObject.CompareTag("Player")){
+            Instantiate(destroyVFX, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
 
-    /*
-    this function creates the explosion animation
-    */
-    private void OnDestroy() {
-        Instantiate(destroyVFX, transform.position, Quaternion.identity);
-    }
 }

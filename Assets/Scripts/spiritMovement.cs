@@ -10,9 +10,13 @@ this script is attached to the CodeSpirit prefab
 public class spiritMovement : MonoBehaviour
 {
     [SerializeField] private Animator animator;
+
+    [Header("Elemental Prefabs")]
     [SerializeField] private GameObject fireball;
+    [SerializeField] private GameObject iceball;
+
+    [Header("Object Prefabs")]
     [SerializeField] private GameObject chest;
-    [SerializeField] Vector2 direction = Vector2.right;
 
     private bool isFacingRight;
 
@@ -50,6 +54,9 @@ public class spiritMovement : MonoBehaviour
                 break;
             case "Fire":
                 Fire();
+                break;
+            case "Ice":
+                Ice();
                 break;
             case "Unlock":
                 Unlock();
@@ -94,10 +101,14 @@ public class spiritMovement : MonoBehaviour
     }
 
     /*
-    this function creates a fireball prefab
+    these functions creates a elemental projectile prefabs
     */
     public void Fire(){
         Instantiate(fireball, transform);
+    }
+
+    public void Ice(){
+        Instantiate(iceball, transform);
     }
 
     /*

@@ -8268,8 +8268,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
       value: Move the to the chest then open it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638542026546144542, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: The blocks are read from top to bottom.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef987d0e113d06046a0c0acd53c9ba58, type: 3}
